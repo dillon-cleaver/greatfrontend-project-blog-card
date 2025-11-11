@@ -43,17 +43,19 @@ p {
   align-items: flex-start;
   justify-content: center;
   padding-top: 120px;
+  padding-left: 17.5px;
+  padding-right: 17.5px;
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .container {
-    min-height: 768px;
+    min-height: 1440px;
   }
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 1440px) {
   .container {
-    min-height: 1440px;
+    min-height: 768px;
   }
 }
 
