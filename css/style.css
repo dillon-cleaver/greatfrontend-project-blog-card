@@ -116,12 +116,6 @@ p {
   line-height: 1.25rem;
 }
 
-.link {
-  color: #4338ca;
-  font-weight: 400;
-  font-size: 1rem;
-}
-
 .read-more-button {
   border: none;
   display: flex;
@@ -140,4 +134,24 @@ p {
   outline: none;
   padding: 0;
   min-width: 114px;
+}
+
+.read-more-button .link {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.read-more-button:focus,
+.read-more-button:hover {
+  color: #3730a3;
+}
+
+.read-more-button:focus {
+  box-shadow: 0px 0px 0px 1px #444ce7, 0px 0px 0px 4px rgba(68, 76, 231, 0.12);
+}
+
+.read-more-button:disabled {
+  pointer-events: none;
+  color: #a3a3a3;
 }
